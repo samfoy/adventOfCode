@@ -7,6 +7,13 @@
   (major1) == 4 && (major2) <  8 || \
   (major1) == 4 && (major2) == 8 && (minor) <= 1)
 
+/* package text-1.2.1.3 */
+#define VERSION_text "1.2.1.3"
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 1)
+
 /* tool alex-3.1.4 */
 #define TOOL_VERSION_alex "3.1.4"
 #define MIN_TOOL_VERSION_alex(major1,major2,minor) (\
@@ -77,5 +84,5 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 0)
 
-#define CURRENT_PACKAGE_KEY "adven_LWQVGYLqmp53SwWBX5lE5g"
+#define CURRENT_PACKAGE_KEY "adven_4C0h9x0hBaw5Y0GVyjYH7W"
 
